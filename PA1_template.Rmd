@@ -3,7 +3,10 @@ Devices Activity Monitoring Data
 
 Author: Juan Pablo Escobar Besa
 Course: Reproducible Research, Coursera
-
+output:  
+  html_document:
+    keep_md: true
+    
 ```{r, echo=TRUE}
 knitr::opts_chunk$set(error = TRUE)
 ```
